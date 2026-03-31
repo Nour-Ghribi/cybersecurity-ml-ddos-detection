@@ -1,0 +1,24 @@
+__pycache__/
+.ipynb_checkpoints/
+.ipython/
+.jupyter_config/
+*.pyc
+*.pyo
+*.pyd
+
+# Local datasets
+01-12/
+03-11/
+
+# Generated experiment outputs
+outputs/
+outputs_phase2_clean/
+outputs_phase25_groupaware/
+outputs_phase25b_groupaware_train_test/
+outputs_phase3_generalization/
+
+# Model artifacts
+*.pt
+*.pth
+*.pkl
+*.joblib
